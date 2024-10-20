@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729303349 source:c:\users\msi\courses\iti\content\c programming\day-4-lab\lab\strcat_app.cpp\main.c
+	<stdio.h>
+	<stdlib.h>
+

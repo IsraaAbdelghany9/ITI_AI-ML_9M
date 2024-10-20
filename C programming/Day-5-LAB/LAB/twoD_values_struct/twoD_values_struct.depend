@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729419428 source:c:\users\msi\courses\iti\content\c programming\twod_values_struct\main.c
+	<stdio.h>
+	<stdlib.h>
+

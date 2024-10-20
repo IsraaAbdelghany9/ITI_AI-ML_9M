@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729418713 source:c:\users\msi\courses\iti\content\c programming\structemployeedata\main.c
+	<stdio.h>
+	<stdlib.h>
+
