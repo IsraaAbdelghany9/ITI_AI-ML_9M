@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729512629 source:c:\users\msi\courses\iti\content\c programming\day-6-lab\lab\swaptwonumbersfunction\main.c
+	<stdio.h>
+	<stdlib.h>
+

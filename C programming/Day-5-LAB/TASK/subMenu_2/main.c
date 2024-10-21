@@ -107,7 +107,7 @@ int main() {
                 ch = 'e';
                 break;
         }
-    } while (ch != 'e' && );
+    } while (ch != 'e'  );
 
     return 0;
 }
