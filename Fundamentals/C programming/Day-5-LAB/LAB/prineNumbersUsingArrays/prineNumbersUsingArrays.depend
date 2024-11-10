@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729422937 source:c:\users\msi\courses\iti\content\c programming\prinenumbersusingarrays\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1729075203 source:c:\users\msi\courses\iti\content\c programming\day-1-lab\task\int-operations\operations_of_int\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arithmaticOperations.h"
+	"relationalOperations.h"
+	"Bitwise_operations.h"
+
+1729130734 c:\users\msi\courses\iti\content\c programming\day-1-lab\task\int-operations\operations_of_int\arithmaticoperations.h
+
+1728995217 c:\users\msi\courses\iti\content\c programming\day-1-lab\task\int-operations\operations_of_int\relationaloperations.h
+
+1728995351 c:\users\msi\courses\iti\content\c programming\day-1-lab\task\int-operations\operations_of_int\bitwise_operations.h
+

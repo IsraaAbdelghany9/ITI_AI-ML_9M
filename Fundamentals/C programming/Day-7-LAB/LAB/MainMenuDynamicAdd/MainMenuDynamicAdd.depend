@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1729687413 source:c:\users\msi\courses\iti\content\c programming\day-7-lab\lab\mainmenudynamicadd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

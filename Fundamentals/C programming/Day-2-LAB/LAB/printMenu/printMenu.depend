@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729072185 source:c:\users\msi\courses\iti\content\c programming\day-2-lab\printmenu\main.c
+	<stdio.h>
+	<stdlib.h>
+

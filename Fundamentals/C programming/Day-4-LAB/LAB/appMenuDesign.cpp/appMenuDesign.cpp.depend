@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1729321724 source:c:\users\msi\courses\iti\content\c programming\day-4-lab\lab\appmenudesign.cpp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
