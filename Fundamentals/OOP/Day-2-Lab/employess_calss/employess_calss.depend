@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730621661 source:c:\users\msi\courses\iti\content\oop\day-2-lab\employess_calss\main.cpp
+	<iostream>
+	<string.h>
+

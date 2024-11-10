@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1731151690 source:c:\users\msi\courses\iti\content\oop\day-5\lecture\menuclass\main.cpp
+	<windows.h>
+	<string.h>
+	<conio.h>
+	<iostream>
+

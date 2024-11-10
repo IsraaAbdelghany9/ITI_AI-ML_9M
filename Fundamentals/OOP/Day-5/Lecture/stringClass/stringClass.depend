@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730925663 source:c:\users\msi\courses\iti\content\oop\day-5\lecture\stringclass\main.cpp
+	<iostream>
+	<string.h>
+
