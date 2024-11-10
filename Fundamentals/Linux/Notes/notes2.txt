@@ -1,0 +1,20 @@
+
+
+# create user
+sudo useradd duck
+
+
+duck:x:1001:1001::/home/duck:/bin/sh
+
+---?> linux preserve --? id --?0 --> 999 (for service users)
+==? from 1000 -? for normal users ??
+
+
+---? customize userid while creation??
+
+
+--------------------------------------------------------------------------
+
+sudo groupmems -g duck -l  # list members that uses this group as secondary group.
+
+
