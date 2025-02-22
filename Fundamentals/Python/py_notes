@@ -1,0 +1,36 @@
+1- the class object is the parent of all classes even the __dict__ --> object inheretance 
+
+2- python is a procedure language and also OOP 
+
+3- procedure language is a before the OOP we had a function oriented programming so the prosedure programming reffers to PROCEDURE PROGRAMING LANGUAGE
+
+
+
+ thمحمود عوف
+
+
+the constructor can be inherite ^-^
+
+
+super(child , self ) ///////////////////////// if there is not parent I CAN  go to the object 
+it mpves to the first direct parent
+
+I can get benifits of the multiple inheretance by the functionalities but the variables and constructors it will move from the child to direct father and so on 
+
+
+
+A task to do : 
+---------- Add person , engineer , instructor
+
+
+__init__ is a special method 
+
+
+
+
+private attributee -> scope binding -> print(emp.__dict__)
+
+
+encapsulation is important to limit the accessability
+
+
