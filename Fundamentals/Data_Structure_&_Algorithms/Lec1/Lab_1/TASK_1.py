@@ -128,6 +128,7 @@ if __name__ == "__main__" :
     empList_1.insertEmp(30, "Hassan", 3000)
     empList_1.insertEmp(40, "Israa", 10_000)
     empList_1.insertEmp(40, "Yasmin", 200)
+    empList_1.insertEmp(-50,"Hager",4000)
 
     empList_1.displayAll()
     print("\n")
