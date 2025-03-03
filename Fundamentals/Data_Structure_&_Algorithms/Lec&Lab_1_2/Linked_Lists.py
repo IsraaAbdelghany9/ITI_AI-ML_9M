@@ -31,6 +31,7 @@ class LinkedList:
             while i < loc and current != None:
                 current = current.next
                 i += 1
+                
             if (current == self.tail or current == None):
                 new_node.prev = self.tail
                 self.tail.next = new_node
