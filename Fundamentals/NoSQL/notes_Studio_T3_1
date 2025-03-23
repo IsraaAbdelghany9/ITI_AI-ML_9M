@@ -1,0 +1,63 @@
+show dbs -> shows the databases 
+
+
+show collections -> to show the col in the current dataset
+
+
+use DataBaseName -> select the DataBase
+
+
+//SELECT * from employees
+db.table_or_database_name.find({}) -> find is the select in MySQL
+
+
+//SELECT * from employees where gender = "male"
+db.employees.find({"gender" : "male"})
+
+
+// show only the _id, name, department columns
+db.employees.find({} , {_id:true , name:true , department:true })
+
+
+// hide only the _id, name, department columns
+db.employees.find({} , {_id:false , name:false , department:false })
+
+
+// hide only the name column
+db.employees.find({} , { name:false })
+
+
+// show only the name column 
+### will show the _id also because it is the primary key but it will show it as an ObjectId("byte_num")
+db.employees.find({} , { name:true })                       
+
+
+ObjectId('bytes')
+
+//
+## general form of the find 
+db.employees.find({ Where_condition (criteria) } , { show_and_hide (projection) })
+
+
+// show only the name without the id object
+## in this case the id is special case so that it can hide it 
+## 0 is the sane as false
+db.employees.find({} , { name:true , _id: 0 })
+
+
+// select name from employees where gender = "female"
+db.employees.find({ gender : "female"} , { name : true} )
+
+
+// 
+## Both will give an error because you need to secify all as true or all as false 
+## _id is a special case
+db.employees.find( {} , {name:true , gender:0})
+db.employees.find( {} , {name:true , gender:false})
+
+---------------------------------------------------------------------------
+Notes :
+
+in NoSQL -> you can start with empty database no tables no columns and it will be created with the first record
+
+db -> global variable or cursor that refferese to the DataBase 

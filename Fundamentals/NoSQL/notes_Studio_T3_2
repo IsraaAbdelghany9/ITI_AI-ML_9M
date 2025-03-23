@@ -1,0 +1,57 @@
+
+## To insert new record 
+db.data.insertOne({
+_id : 99 ,
+name : "noha" , 
+track : "AI"
+})
+
+
+## The output after the first insertion 
+## acknowledged: true means the operatiion has been done successfully 
+## insertedId: 99 is the id of the record we entered
+{ acknowledged: true, insertedId: 99 }
+
+
+## if I did not write an id it will return an id as an ObjectId()
+
+
+## 
+db.student.insertOne({
+_id : 99 ,
+name : "noha" , 
+track : "AI"
+})
+
+
+#### 
+// TO show the Noha data 
+db.student.find({_id:99})
+
+
+// Delete the record of noha
+db.student.deleteOne({ _id : 99 })
+
+
+## same as the insert output but for the delete
+{ acknowledged: true, deletedCount: 1.0 }
+
+
+
+
+
+
+
+
+---------------------------------------------------------
+Insert in NoSQL has 3 options :
+- insertOne -> TO insert a document
+- insertMany -> TO insert many documents 
+- insert -> for insert a document and an ordered option
+
+
+Delete has the same options
+
+if you deleted a document using a where condition that valid for many rows it will delete the first one 
+
+
